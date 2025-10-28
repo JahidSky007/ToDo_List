@@ -15,11 +15,11 @@
   <form method="POST">
     {% csrf_token %}
     <div class="mb-3">
-      <label>Username</label>
+      <label>Credential Name</label>
       <input type="text" name="username" class="form-control" required>
     </div>
     <div class="mb-3">
-      <label>Password</label>
+      <label>Credential Password</label>
       <input type="password" name="password" class="form-control" required>
     </div>
     <button type="submit" class="btn btn-success">Login</button>
